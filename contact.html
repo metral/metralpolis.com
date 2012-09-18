@@ -1,0 +1,64 @@
+---
+layout: page
+title: Contact & Social
+tagline: 
+weight: 4
+group: navigation
+---
+
+If you would like to reach out to me or find me elsewhere on the web, please visit
+any of the following sites that I participate in:
+
+<br><br>
+<table border="0">
+  <tr>
+    {% if site.author.email %}
+        <td>
+        <a href="mailto:{{ site.author.email }}" class="zocial gmail icon" target="_blank">Email
+            <span class="hidden-desktop">Gmail</a>
+        </a>
+        </td>
+        <td>
+        <a href="docs/public_key.txt" class="zocial guest icon" target="_blank">Public Key (EA447CFB)
+            <span class="hidden-desktop">Public Key</a>
+        </a>
+        </td>
+    {% endif %}
+  </tr>
+  <tr>
+    {% if site.author.github %}
+        <td>
+        <a href="https://www.github.com/{{ site.author.github }}" class="zocial github icon" target="_blank">Github
+            <span class="hidden-desktop">Github</a>
+        </a>
+        </td>
+    {% endif %}
+  </tr>
+  <tr>
+    {% if site.author.twitter %}
+        <td>
+        <a href="http://www.twitter.com/{{ site.author.twitter }}" class="zocial twitter icon" target="_blank">Twitter
+            <span class="hidden-desktop">Twitter</a>
+        </a>
+        </td>
+    {% endif %}                          
+  </tr>
+  <tr>
+    {% if site.author.linkedin %}
+        <td>
+        <a href="http://www.linkedin.com/in/{{ site.author.linkedin }}" class="zocial linkedin icon" target="_blank">LinkedIn
+            <span class="hidden-desktop">LinkedIn</a>
+        </a>
+        </td>
+    {% endif %}                    
+  </tr>
+  <tr>
+    {% if site.author.stackoverflow %}
+        <td>
+        <a href="http://stackoverflow.com/users/{{ site.author.stackoverflow }}" class="zocial openid icon" target="_blank">StackOverflow
+            <span class="hidden-desktop">StackOverflow</a>
+        </a>
+        </td>
+    {% endif %}                    
+  </tr>
+</table>
