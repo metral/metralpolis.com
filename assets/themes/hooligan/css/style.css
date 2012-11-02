@@ -12,8 +12,9 @@ html, body {
 
 /* line 18, ../_sass/_base.scss */
 body {
-  color: #bbb;
-  text-shadow: 1px 1px 1px #000;
+  /* color: #bbb; */
+  color: #272424;
+  /*text-shadow: 1px 1px 1px lightGrey;*/
   height: 100%;
   font-family: 'Oxygen', sans-serif;
   font-size: 14px;
@@ -23,7 +24,7 @@ body {
 h1, h2, h3, h4, h5, h6 {
   margin: 0;
   font-weight: normal;
-  color: #999;
+  color: #272424;
   text-rendering: optimizelegibility;
   font-family: 'Advent Pro', sans-serif;
   /*font-family: 'Pontano Sans', sans-serif;*/
@@ -31,7 +32,9 @@ h1, h2, h3, h4, h5, h6 {
 
 /* line 35, ../_sass/_base.scss */
 a {
-  color: #4cb4e8;
+  /*color: #4cb4e8;*/
+  /*color: #2F95C9;*/
+  color: #1174F1;
   -webkit-transition: all 0.3s;
   -moz-transition: all 0.3s;
   -ms-transition: all 0.3s;
@@ -40,7 +43,8 @@ a {
 }
 /* line 37, ../_sass/_base.scss */
 a:hover {
-  color: #d4edf9;
+  /*color: #d4edf9;*/
+  color: #6ECAF8;
   text-decoration: none;
 }
 
